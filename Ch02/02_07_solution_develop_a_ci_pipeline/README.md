@@ -39,6 +39,7 @@ Help the team set up a continuous integration pipeline using a GitHub Actions st
     to:
 
         pandas==1.5.3
+        numpy==1.22.0
 
     Alternatively, you can change the file `test_pandas_version.py` to match the requirements file:
 
