@@ -55,7 +55,7 @@ Help the team set up a continuous integration pipeline using a GitHub Actions st
 
     Update the workflow so that it has permissions to create checks in the Actions interface.
 
-    Add the following just after `runs-on: ubuntu-latest`:
+    Add the following just after `contents: read`:
 
         permissions:
             checks: write
